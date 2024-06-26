@@ -6,6 +6,6 @@ Criar um projeto básico de introdução de informações via terminal, com a te
 # To Do:
 * Importar Scanner;
 * Definir solicitações ao usuário;
-* Pemitir a resposta dinamica do usuário via terminal;
+* Permitir a resposta dinâmica do usuário via terminal;
 * Definir uma mensagem final de boas vindas para o usuário, contendo as informações por ele introduzidas.
 
