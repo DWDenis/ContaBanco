@@ -23,7 +23,7 @@ public class ContaTerminal {
         System.out.println("Seu saldo ataul é de:");
         double saldo = scanner.nextDouble();
 
-        //frase de impreção
+        //frase de impressão
         System.out.println("Ola " + nomeCliente+ " " + sobrenomeCliente +", obrigado por criar uma conta em nosso banco, sua agência é " +agencia + ", conta " +numeroConta + " e seu saldo " +saldo + " já está disponivél para saque.");
         
     }
