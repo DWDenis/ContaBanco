@@ -1,4 +1,4 @@
-
+//importando Scanner
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -7,8 +7,12 @@ public class ContaTerminal {
         //criando o ojeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
+        //definindo retornos
         System.out.println("Digite seu nome abaixo:");
         String nomeCliente = scanner.next();
+
+        System.out.println("Digite seu sobrenome abaixo:");
+        String sobrenomeCliente = scanner.next();        
 
         System.out.println("Digite abaixo o numero de sua agencia:");
         String agencia = scanner.next();
@@ -20,7 +24,7 @@ public class ContaTerminal {
         double saldo = scanner.nextDouble();
 
         //frase de impreção
-        System.out.println("Ola " + nomeCliente+ ", obrigado por criar uma conta em nosso banco, sua agência é " +agencia + ", conta " +numeroConta + " e seu saldo " +saldo + "já está disponivél para saque.");
+        System.out.println("Ola " + nomeCliente+ " " + sobrenomeCliente +", obrigado por criar uma conta em nosso banco, sua agência é " +agencia + ", conta " +numeroConta + " e seu saldo " +saldo + " já está disponivél para saque.");
         
     }
 }
